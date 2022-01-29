@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 html{
     scroll-behavior: smooth;
@@ -15,7 +16,8 @@ html{
     cursor: pointer;
     border-bottom: 2px solid grey;
     border-width: 80%;
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     padding-bottom: 0px;
 }
 .leftnav{
@@ -32,7 +34,6 @@ html{
     font-weight: bold;
 }
 .rightNav{
-    
     padding: 0 25px;
 }
 .nav-list{
@@ -49,6 +50,15 @@ html{
     text-decoration: none;
     color: white;
     padding: 2;
+}
+.nav-list li a:hover{
+    border-bottom: 3px solid white;
+    color: rgb(185, 184, 184);
+    border-color: rgb(185, 184, 184);
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    font-size: 18px;
+    font-family: cursive;
 }
 .background{
     background-color: black;
@@ -96,6 +106,8 @@ html{
 }
 .secondhalf{
         width: 50%;
+        height: 200%;
+        margin-top: 70%;
 }
 .secondhalf img{
     width: 70%;
@@ -110,7 +122,7 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 65%;
+    height: 100%;
     padding: 100px 30px;
 }
 .part1{
