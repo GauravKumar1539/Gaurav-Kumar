@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    padding: 7px 0px;
+    position: sticky;
+    cursor: pointer;
+    border-bottom: 2px solid grey;
+    border-width: 80%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 0px;
+}
+.leftnav{
+    width: 50%;
+    color: whitesmoke;
+}
+.name{
+    width: 33%;
+    border-radius: 30px;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.rightNav{
+    padding: 0 25px;
+}
+.nav-list{
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: right;
+}
+.nav-list li {
+    list-style: none;
+    padding: 20px 25px;
+}
+.nav-list li:hover{
+    background-color: gray;
+    color: rgb(185, 184, 184);
+    border-color: rgb(185, 184, 184);
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+    font-size: 18px;
+    font-family: cursive;
+    border-bottom: 3px solid white;
+} 
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    padding: 2;
+}
+.background{
+    background-color: black;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.main-box{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 80%;
+    margin: auto;
+    height: 100%;
+}
+.section{
+    height: 100vh;
+}
+.firsthalf{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.text-big{
+    font-size: 48px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.text-small{
+    font-size: 18px;
+    width: 75%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.btn{
+    width: 24%;
+    padding: 8px 20px;
+    margin: 30px 25px;
+    font-size: 17px;
+    font-weight: bold;
+    border: 4px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.secondhalf{
+        width: 50%;
+        height: 200%;
+        margin-top: 70%;
+}
+.secondhalf img{
+    width: 70%;
+    border: 5px solid white;
+    border-radius: 50px;
+    display: block;
+    margin: 0px 63px;
+}
+.box2{ 
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 100px 30px;
+}
+.part1{
+    align-items: center;
+    padding-top: 35px;
+    color: white;
+}
+.part2{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    padding: 0px 150px;
+}
+.part2 div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+.part2 div img{
+    width: 53%;
+    border: 3px solid grey;
+    border-radius: 30px;
+}
+.part3{
+    display: flex;
+    flex-direction: row;
+    max-width: 40%;
+    padding: 5px 10px;
+}
+.part3 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.part3 div img{
+    width: 40%;
+    border: 3px solid grey;
+    border-radius: 30px;
+}
+.hobbies{
+    padding-top: 10px;
+    font-family: cursive;
+    font-size: 18px;
+}
+.box3{
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    padding: 100px 30px;
+}
+.part4{
+    align-items: left;
+    margin-top: 20px;
+}
+.container{
+    background-color: white;
+    margin: 20px;
+    width: 53%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.skill{
+    background-color: grey;
+    padding: 1%;
+    border-radius: 10px;
+}
+.abc{
+    align-items: left;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.html{
+    width: 80%;
+}
+.css{
+    width: 70%;
+}
+.javascript{
+    width: 50%;
+}
+.c{
+    width: 80%;
+}
+.footer{
+    text-align: center;
+    background-color: thistle;
+}
