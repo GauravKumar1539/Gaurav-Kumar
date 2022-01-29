@@ -46,11 +46,6 @@ html{
     list-style: none;
     padding: 20px 25px;
 }
-.nav-list li a{
-    text-decoration: none;
-    color: white;
-    padding: 2;
-}
 .nav-list li:hover{
     background-color: gray;
     color: rgb(185, 184, 184);
@@ -63,6 +58,11 @@ html{
     font-family: cursive;
     border-bottom: 3px solid white;
 } 
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    padding: 2;
+}
 .background{
     background-color: black;
     background-size: cover;
