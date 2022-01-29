@@ -51,15 +51,18 @@ html{
     color: white;
     padding: 2;
 }
-.nav-list li a:hover{
-    border-bottom: 3px solid white;
+.nav-list li:hover{
+    background-color: gray;
     color: rgb(185, 184, 184);
     border-color: rgb(185, 184, 184);
-    border-bottom-left-radius: 9px;
-    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
     font-size: 18px;
     font-family: cursive;
-}
+    border-bottom: 3px solid white;
+} 
 .background{
     background-color: black;
     background-size: cover;
